@@ -1,0 +1,60 @@
+---angelscript_2.22.1.zip
+- official release, but with #define CLEAR_FPU_STACK emms -
+http://www.angelcode.com/angelscript/sdk/files/angelscript_2.22.1.zip
+
+---ogre_src_v1-7-3.zip
+- repacked as zip -
+http://sourceforge.net/projects/ogre/files/ogre/1.7/ogre_src_v1-7-3.tar.bz2/download
+
+
+OgreDependencies_MSVC_20101231.zip
+http://sourceforge.net/projects/ogre/files/ogre-dependencies-vc%2B%2B/1.7/OgreDependencies_MSVC_20101231.zip/download
+
+
+--moFileReader.0.1.2.zip
+http://mofilereader.googlecode.com/files/moFileReader.0.1.2.zip
+moFileReader-headerfix.0.1.2.zip
+overwrites header files and fixes several #pragma warnings
+
+
+https://github.com/clawoo/mofilereader
+
+socketw.zip
+socketw with windows patches
+
+ois-v1-3.zip
+- converted to VS2010, added DX path to link path -
+http://sourceforge.net/projects/wgois/files/Source%20Release/1.3/ois-v1-3.zip/download
+
+https://github.com/wgois/OIS
+
+
+--ogre-paged-1.1.4.zip
+http://ogre-paged.googlecode.com/files/ogre-paged-1.1.4.zip
+
+--caelum-0.6.1.zip
+http://caelum.googlecode.com/files/caelum-0.6.1.zip
+
+--mygui-trunk-patched-r4359.zip
+- svn checkout of revision 4359 patched with http://redmine.mygui.info/issues/show/165 and http://redmine.mygui.info/issues/show/163 -
+https://my-gui.svn.sourceforge.net/svnroot/my-gui/trunk
+
+
+--openal-soft-1.13.zip
+- repacked as .zip -
+http://kcat.strangesoft.net/openal-releases/openal-soft-1.13.tar.bz2
+
+--pthreads.zip
+- repacked as .zip, added VS project -
+ftp://sourceware.org/pub/pthreads-win32/pthreads-w32-2-8-0-release.tar.gz
+
+https://github.com/GerHobbelt/pthread-win32
+
+--curl-7.23.1.zip
+http://curl.haxx.se/snapshots/curl-7.24.0-20120106.zip
+
+--wxWidgets-2.9.3.zip
+- upgraded VS project for VS2010 -
+https://sourceforge.net/projects/wxwindows/files/2.9.3/wxWidgets-2.9.3.zip/download
+
+https://github.com/wxWidgets/wxWidgets
