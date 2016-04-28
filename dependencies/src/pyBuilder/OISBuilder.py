@@ -48,7 +48,7 @@ msbuild ois_vc14.sln /t:rebuild /p:Configuration=%(configuration)s /p:Platform=%
 			if 'Release' in CONFIGURATIONS:
 				self.configuration = 'Release'
 				res |= self.installLibs(dir+'/lib/ois_static.lib')
-				res |= self.installBinaries(dir+'/lib/obj/debug/*.pdb')
+				res |= self.installBinaries(dir+'/lib/obj/release/*.pdb')
 			if 'Debug' in CONFIGURATIONS:
 				self.configuration = 'Debug'
 				res |= self.installLibs(dir+'/lib/ois_static_d.lib')
@@ -58,7 +58,7 @@ msbuild ois_vc14.sln /t:rebuild /p:Configuration=%(configuration)s /p:Platform=%
 			if 'Release' in CONFIGURATIONS:
 				self.configuration = 'Release'
 				res |= self.installLibs(dir+'/lib64/ois_static.lib')
-				res |= self.installBinaries(dir+'/lib64/obj/debug/*.pdb')
+				res |= self.installBinaries(dir+'/lib64/obj/release/*.pdb')
 			if 'Debug' in CONFIGURATIONS:
 				self.configuration = 'Debug'
 				res |= self.installLibs(dir+'/lib64/ois_static_d.lib')
