@@ -40,7 +40,7 @@ msbuild wx_vc14.sln /t:rebuild /p:Configuration=%(configuration)s /p:Platform=%(
 				res |= self.installIncludes(dir+'/include/wx', True, 'wx')
 				res |= self.installIncludes(dir+'/lib/vc_lib/mswu/wx', True, 'wx')
 				res |= self.installLibs(dir+'/lib/vc_lib/*.lib')
-				res |= self.installLibs(dir+'/lib/vc_lib/*.pdb', False)
+				res |= self.installLibs(dir+'/lib/vc_lib/*.pdb', True)
 			
 			if 'x64' in globals()['PLATFORMS']:
 				self.platform='x64'
@@ -59,9 +59,9 @@ msbuild wx_vc14.sln /t:rebuild /p:Configuration=%(configuration)s /p:Platform=%(
 """)
 				dir = self.getFirstFolder()
 				res |= self.installIncludes(dir+'/include/wx', True, 'wx')
-				res |= self.installIncludes(dir+'/lib/vc_lib/mswu/wx', True, 'wx')
-				res |= self.installLibs(dir+'/lib/vc_lib/*.lib')
-				res |= self.installLibs(dir+'/lib/vc_lib/*.pdb', False)
+				res |= self.installIncludes(dir+'/lib/vc_x64_lib/mswu/wx', True, 'wx')
+				res |= self.installLibs(dir+'/lib/vc_x64_lib/*.lib')
+				res |= self.installLibs(dir+'/lib/vc_x64_lib/*.pdb', True)
 		return res
 			
 	def install(self):
