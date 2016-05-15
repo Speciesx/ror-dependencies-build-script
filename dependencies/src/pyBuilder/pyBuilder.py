@@ -409,11 +409,8 @@ def run(root, deps, configurations, platforms):
   SocketWBuilder
   AngelScriptBuilder
   OISBuilder
-  PThreadBuilder
   CurlBuilder
   OpenALSoftBuilder
-# then the libs depending on boost
-# BoostBuilder
   OgreBuilder
 # then the libs depending on ogre
   PagedGeometryBuilder
